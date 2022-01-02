@@ -1,0 +1,53 @@
+<!-- 
+
+    HEAD
+
+ -->
+<head>
+<!-- czcionka Montserrat -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<!-- dodaj swój kit Font Awesome, jeśli chcesz mieć ikony ☑️ oraz ✖️ -->
+
+
+<body>
+
+<!-- 
+
+    BODY
+
+ -->
+<div class="todo">
+    <div class="header">
+        <h1>ToDo List</h1>
+        <input type="text" class="todo-input" placeholder="Wpisz treść zadania...">
+        <button class="btn-add">Add</button>
+    </div>
+    <div class="todolist">
+        <h3>Lista zadań:</h3>
+        <p class="error-info"></p>
+        <ul>
+            
+        </ul>
+    </div>
+</div>
+
+<div class="popup">
+    <h3>Edytuj zadanie:</h3>
+    <div class="popup-body">
+        <p class="popup-info"></p>
+        <input type="text" class="popup-input" placeholder="Wprowadź nową treść zadania...">
+        <button class="popup-btn accept">Zatwierdź</button>
+        <button class="popup-btn cancel">Anuluj</button>
+    </div>
+</div>
+
+<script src="https://kit.fontawesome.com/212042ca5c.js" crossorigin="anonymous"></script>
+<script src="script2.js"></script>
+
+</body>
